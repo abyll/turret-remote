@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 ## Networked Turret Controller
-# acts as a server
+
+#Copyright 2017 - Abyll Breil
 from sys import stdout
 from twisted.python.log import startLogging, err
 from twisted.internet import reactor, task

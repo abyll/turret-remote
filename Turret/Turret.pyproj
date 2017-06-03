@@ -27,7 +27,6 @@
     <Compile Include="ClientApp.py" />
     <Compile Include="controller.py" />
     <Compile Include="controller_client.py" />
-    <Compile Include="module2.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />

@@ -2,6 +2,8 @@
 ## Networked Turret Controller
 # acts as a remote controlling client
 
+#Copyright 2017 - Abyll Breil
+
 from twisted.internet import reactor
 from twisted.internet.protocol import Factory
 from twisted.internet.endpoints import TCP4ClientEndpoint

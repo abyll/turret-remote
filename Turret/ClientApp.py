@@ -1,4 +1,5 @@
 #Turret controller - Kivy app
+#Copyright 2017 - Abyll Breil
 from __future__ import unicode_literals
 
 from sys import stdout
