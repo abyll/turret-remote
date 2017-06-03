@@ -1,0 +1,16 @@
+_wrap
+_is_callable
+types
+winerror
+PyIDispatchType
+_wrap_nodebug
+axscript
+debugging
+_wrap_debug
+COMException
+pythoncom
+ScriptDispatch
+StrictDynamicPolicy
+win32com
+MakeScriptDispatch
+Dispatch

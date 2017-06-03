@@ -1,0 +1,13 @@
+CheckRegistry
+os
+win32api
+CheckHelpFiles
+win32con
+warnings
+CheckRegisteredModules
+regutil
+CheckRegisteredExe
+verbose
+CheckPathString
+sys
+CheckPythonPaths

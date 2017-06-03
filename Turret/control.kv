@@ -1,0 +1,55 @@
+#:kivy 1.0.9
+<SmButton@Button>:
+    text: 'Btn'
+    size: 33, 33
+    size_hint: .3, .3
+
+<ControlScreen>:
+    AnchorLayout:
+        anchor_x: 'left'
+        anchor_y: 'top'
+
+        Label:
+            text: 'Just Testing'
+            size: 33, 33
+            size_hint: None, None
+
+    AnchorLayout:
+        anchor_y: 'top'
+        anchor_x: 'center'
+        SmButton:
+            id: up
+            text: '^'
+            on_press: root.TiltUp()
+            on_release: root.StopTilt()
+    AnchorLayout:
+        anchor_y: 'bottom'
+        anchor_x: 'center'
+        SmButton:
+            id: down
+            text: 'v'
+            on_press: root.TiltDown()
+            on_release: root.StopTilt()
+    AnchorLayout:
+        anchor_y: 'center'
+        anchor_x: 'left'
+        SmButton:
+            id: left
+            text: '<'
+            on_press: root.PanLeft()
+            on_release: root.StopPan()
+    AnchorLayout:
+        anchor_y: 'center'
+        anchor_x: 'right'
+        SmButton:
+            id: right
+            text: '>'
+            on_press: root.PanRight()
+            on_release: root.StopPan()
+    AnchorLayout:
+        anchor_y: 'center'
+        anchor_x: 'center'
+        SmButton:
+            id: fire
+            text: "Fire"
+            on_press: root.Fire()

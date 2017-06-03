@@ -1,0 +1,17 @@
+PRE
+_POST
+_PRE
+HookError
+removePost
+_dehook
+POST
+_enhook
+addPre
+_ORIG
+hooked_func
+ORIG
+_removeHook
+_XXX
+addPost
+removePre
+_addHook

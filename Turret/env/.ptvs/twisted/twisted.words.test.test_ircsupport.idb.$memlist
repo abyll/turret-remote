@@ -1,0 +1,12 @@
+IRCProto
+StubConversation
+IRCAccount
+IRCProtoTests
+Conversation
+StubGroupConversation
+IRCTestCase
+StubChatUI
+OfflineError
+GroupConversation
+StringTransport
+ChatUI

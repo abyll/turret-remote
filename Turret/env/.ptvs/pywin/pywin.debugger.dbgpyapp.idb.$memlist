@@ -1,0 +1,8 @@
+os
+win32ui
+win32con
+DebuggerPythonApp
+intpyapp
+string
+version
+sys

@@ -1,0 +1,9 @@
+abstract
+EIGHTBITS
+fdesc
+division
+BaseSerialPort
+absolute_import
+STOPBITS_ONE
+SerialPort
+PARITY_NONE

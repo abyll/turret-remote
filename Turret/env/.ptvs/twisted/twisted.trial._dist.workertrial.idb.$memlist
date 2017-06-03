@@ -1,0 +1,13 @@
+textFromEventDict
+_setupPath
+os
+main
+_WORKER_AMP_STDIN
+WorkerLogObserver
+startLoggingWithObserver
+FileWrapper
+_WORKER_AMP_STDOUT
+WorkerOptions
+errno
+sys
+unicode

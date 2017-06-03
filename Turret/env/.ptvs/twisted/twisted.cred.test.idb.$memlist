@@ -1,0 +1,5 @@
+test_simpleauth
+test_digestauth
+test_cramauth
+test_strcred
+test_cred

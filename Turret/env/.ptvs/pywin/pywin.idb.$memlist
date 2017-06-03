@@ -1,0 +1,11 @@
+is_platform_unicode
+debugger
+mfc
+scintilla
+default_scintilla_encoding
+docking
+default_platform_encoding
+dialogs
+tools
+framework
+idle

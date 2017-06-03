@@ -1,0 +1,9 @@
+Mask
+MaskType
+_PYGAME_C_API
+__doc__
+__file__
+__name__
+__package__
+from_surface
+from_threshold

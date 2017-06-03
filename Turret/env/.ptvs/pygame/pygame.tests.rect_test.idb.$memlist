@@ -1,0 +1,10 @@
+os
+pkg_dir
+pkg_name
+sys
+RectTypeTest
+Rect
+parent_dir
+SubclassTest
+is_pygame_pkg
+unittest

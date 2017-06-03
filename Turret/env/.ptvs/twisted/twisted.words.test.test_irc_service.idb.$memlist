@@ -1,0 +1,12 @@
+IRCTestCase
+InMemoryWordsRealm
+portal
+IRCUser
+BADTEXT
+IRCUserBadEncodingTests
+IRCUserTests
+IRCFactory
+irc
+checkers
+MocksyIRCUser
+proto_helpers

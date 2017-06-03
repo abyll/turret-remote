@@ -1,0 +1,9 @@
+ExplorerEvents
+os
+time
+TestExplorerEvents
+pythoncom
+win32api
+win32event
+sys
+win32com

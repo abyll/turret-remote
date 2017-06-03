@@ -1,0 +1,4 @@
+exclude
+numpy
+pygame
+__tags__

@@ -1,0 +1,12 @@
+add
+initializeModule
+_inotify
+FilePath
+c_uint32
+platform
+INotifyTests
+init
+INotifyError
+c_char_p
+TestCase
+c_int

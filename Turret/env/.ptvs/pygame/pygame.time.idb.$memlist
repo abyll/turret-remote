@@ -1,0 +1,9 @@
+Clock
+__doc__
+__file__
+__name__
+__package__
+delay
+get_ticks
+set_timer
+wait

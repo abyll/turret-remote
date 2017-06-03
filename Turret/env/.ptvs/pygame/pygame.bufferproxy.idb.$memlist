@@ -1,0 +1,9 @@
+BufferProxy
+_PYGAME_C_API
+__doc__
+__file__
+__name__
+__package__
+get_read_buffer
+get_segcount
+get_write_buffer

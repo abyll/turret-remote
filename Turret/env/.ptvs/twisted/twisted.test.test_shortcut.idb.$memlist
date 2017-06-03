@@ -1,0 +1,5 @@
+skipWindowsNopywin32
+ShortcutTests
+unittest
+shortcut
+os

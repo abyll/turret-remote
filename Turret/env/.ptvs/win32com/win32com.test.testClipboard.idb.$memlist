@@ -1,0 +1,15 @@
+num_do_objects
+NewEnum
+WrapCOMObject
+IDataObject_Methods
+wrap
+winerror
+TestDataObject
+ClipboardTester
+str2bytes
+util
+COMException
+win32clipboard
+win32con
+pythoncom
+unittest

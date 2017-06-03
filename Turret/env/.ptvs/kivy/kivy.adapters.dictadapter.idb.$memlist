@@ -1,0 +1,6 @@
+deprecated
+ListProperty
+DictProperty
+__all__
+DictAdapter
+ListAdapter

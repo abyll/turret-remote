@@ -1,0 +1,7 @@
+AXScript
+os
+win32api
+sys
+win32com
+verbose
+unittest

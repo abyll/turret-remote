@@ -1,0 +1,10 @@
+€}q(UdocqUSDL_RWops supportqUmembersq}q(Uencode_file_pathq}q(UkindqUfunctionq	Uvalueq
+}q(U	overloadsq]q}q(Uret_typeq]qU__builtin__qUstr†qahU6Encode a unicode or bytes object as a file system pathUargsq}q(Udefault_valueqUNoneqUnameqUobju}q(hhhUetypeu†uahUiencode_file_path([obj [, etype]]) -> bytes or None
+Encode a unicode or bytes object as a file system pathuuU__file__q}q(hUdataqh
+}qUtypeq]qhasuU__package__q}q (hhh
+}q!h]q"hUNoneType†q#asuU_PYGAME_C_APIq$}q%(hhh
+}q&h]q'hU	PyCapsule†q(asuUencode_stringq)}q*(hh	h
+}q+(h]q,}q-(h]q.hahU Encode a unicode or bytes objecth(}q/(hhhUobju}q0(hhhUencodingu}q1(hhhUerrorsu}q2(hhhUetypeutuahUhencode_string([obj [, encoding [, errors [, etype]]]]) -> bytes or None
+Encode a unicode or bytes objectuuU__name__q3}q4(hhh
+}q5h]q6hasuU__doc__q7}q8(hhh
+}q9h]q:hasuuu.

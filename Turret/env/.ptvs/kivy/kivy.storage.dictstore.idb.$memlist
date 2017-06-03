@@ -1,0 +1,6 @@
+DictStore
+exists
+AbstractStore
+__all__
+pickle
+iteritems

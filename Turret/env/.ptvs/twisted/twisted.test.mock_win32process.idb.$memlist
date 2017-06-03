@@ -1,0 +1,5 @@
+GetExitCodeProcess
+win32process
+CreateProcess
+STARTF_USESTDHANDLES
+STARTUPINFO

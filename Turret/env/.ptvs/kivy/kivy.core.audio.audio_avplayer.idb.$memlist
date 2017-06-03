@@ -1,0 +1,10 @@
+AVAudioPlayer
+autoclass
+Sound
+INCLUDE
+NSString
+SoundLoader
+SoundAvplayer
+__all__
+NSURL
+load_framework

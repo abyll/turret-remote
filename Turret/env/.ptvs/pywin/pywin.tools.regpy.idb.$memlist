@@ -1,0 +1,9 @@
+RegistryControl
+RegistryPage
+win32ui
+win32con
+RegistrySheet
+t
+dialog
+RegEditPropertyPage
+commctrl

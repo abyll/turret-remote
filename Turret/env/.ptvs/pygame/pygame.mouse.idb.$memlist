@@ -1,0 +1,12 @@
+__doc__
+__file__
+__name__
+__package__
+get_cursor
+get_focused
+get_pos
+get_pressed
+get_rel
+set_cursor
+set_pos
+set_visible

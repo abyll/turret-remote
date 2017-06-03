@@ -1,0 +1,17 @@
+defaultCharacterFormat
+testpp
+dialog
+document
+GetEditorFontOption
+win32api
+win32con
+GetEditorOption
+paletteVGA
+win32ui
+editorTemplate
+EditorPropertyPage
+DeleteEditorOption
+SetEditorOption
+pywin
+SetEditorFontOption
+EditorWhitespacePropertyPage

@@ -1,0 +1,13 @@
+FilteringLogObserver
+Names
+ILogObserver
+LogLevel
+ILogFilterPredicate
+partial
+LogLevelFilterPredicate
+shouldLogEvent
+implementer
+InvalidLogLevelError
+Interface
+NamedConstant
+PredicateResult

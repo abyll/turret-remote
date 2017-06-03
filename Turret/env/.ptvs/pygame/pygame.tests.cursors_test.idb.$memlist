@@ -1,0 +1,10 @@
+pygame
+os
+pkg_dir
+pkg_name
+is_pygame_pkg
+CursorsModuleTest
+fixture_path
+parent_dir
+sys
+unittest

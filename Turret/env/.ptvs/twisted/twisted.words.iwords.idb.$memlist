@@ -1,0 +1,8 @@
+IProtocolPlugin
+IChatClient
+IChatService
+__all__
+IUser
+Attribute
+Interface
+IGroup

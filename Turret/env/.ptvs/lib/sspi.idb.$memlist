@@ -1,0 +1,13 @@
+sig
+ServerAuth
+sec_buffer
+ClientAuth
+_BaseAuth
+error
+err
+sspiclient
+key
+data
+sspiserver
+win32security
+sspicon

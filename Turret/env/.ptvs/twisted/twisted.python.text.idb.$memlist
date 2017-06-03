@@ -1,0 +1,9 @@
+removeLeadingTrailingBlanks
+stringyString
+splitQuoted
+strFile
+isMultiline
+endsInNewline
+greedyWrap
+wordWrap
+removeLeadingBlanks

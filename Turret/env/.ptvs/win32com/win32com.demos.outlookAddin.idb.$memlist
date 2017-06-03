@@ -1,0 +1,14 @@
+UnregisterAddin
+ButtonEvent
+gencache
+RegisterAddin
+sys
+winerror
+constants
+FolderEvent
+DispatchWithEvents
+COMException
+win32com
+pythoncom
+universal
+OutlookAddin

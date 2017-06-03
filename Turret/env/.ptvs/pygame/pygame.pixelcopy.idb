@@ -1,0 +1,13 @@
+€}q(UdocqU-pygame module for general pixel array copyingqUmembersq}q(U__file__q}q(UkindqUdataq	Uvalueq
+}qUtypeq]qU__builtin__qUstr†qasuUarray_to_surfaceq}q(hUfunctionqh
+}q(U	overloadsq]q}q(Uret_typeq]qhUNoneType†qahU!copy an array object to a surfaceUargsq}qUnameqUargqs}qhhs†uahUNarray_to_surface(<surface>, <array>) -> None
+copy an array object to a surfaceuuU__package__q}q (hh	h
+}q!h]q"hasuUmake_surfaceq#}q$(hhh
+}q%(h]q&}q'(h]q(Upygame.surfaceq)USurface†q*ahUCopy an array to a new surfaceh}q+hUarrays…uahUNpygame.pixelcopy.make_surface(array) -> Surface
+Copy an array to a new surfaceuuU__name__q,}q-(hh	h
+}q.h]q/hasuU	map_arrayq0}q1(hhh
+}q2(h]q3}q4(h]q5hahU4copy an array to another array, using surface formath}q6hhs}q7hhs}q8hhs‡uahUcmap_array(<array>, <array>, <surface>) -> None
+copy an array to another array, using surface formatuuU__doc__q9}q:(hh	h
+}q;h]q<hasuUsurface_to_arrayq=}q>(hhh
+}q?(h]q@}qA(h]qBhahU&copy surface pixels to an array objecth(}qChUarrays}qDhUsurfaces}qE(Udefault_valueqFU'P'hUkindu}qG(hFU255hUopaqueu}qH(hFU0hUclearutuahUnsurface_to_array(array, surface, kind='P', opaque=255, clear=0) -> None
+copy surface pixels to an array objectuuuu.

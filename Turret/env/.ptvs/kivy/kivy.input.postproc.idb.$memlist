@@ -1,0 +1,15 @@
+ignorelist
+calibration
+os
+__all__
+doubletap
+InputPostprocRetainTouch
+dejitter
+InputPostprocIgnoreList
+tripletap
+kivy_postproc_modules
+InputPostprocCalibration
+InputPostprocDoubleTap
+InputPostprocDejitter
+retaintouch
+InputPostprocTripleTap

@@ -1,0 +1,11 @@
+EnumKeys
+FLAG_RESTRICTED
+TypelibSpec
+FLAG_HIDDEN
+win32con
+EnumTlbs
+FindTlbsWithDescription
+win32api
+FLAG_CONTROL
+SelectTlb
+pythoncom

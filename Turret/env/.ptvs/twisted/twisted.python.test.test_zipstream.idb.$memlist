@@ -1,0 +1,10 @@
+filepath
+ZipFileEntryTests
+zipfile
+ZipstreamTests
+unittest
+DeflatedZipFileEntryTests
+md5
+random
+zipstream
+FileEntryMixin

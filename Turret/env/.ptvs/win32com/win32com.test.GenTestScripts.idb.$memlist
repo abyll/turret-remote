@@ -1,0 +1,10 @@
+os
+GenerateFromRegistered
+sys
+GetGenPath
+CleanAll
+GenerateAll
+pythoncom
+genDir
+genList
+win32com

@@ -1,0 +1,13 @@
+zipfile
+os
+struct
+countFileChunks
+countZipFileChunks
+DeflatedZipFileEntry
+DIR_BIT
+unzipIterChunky
+ChunkingZipFile
+_fileHeaderSize
+_FileEntry
+zlib
+ZipFileEntry

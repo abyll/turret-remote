@@ -1,0 +1,17 @@
+sys
+core_register_libs
+core_select_lib
+os
+audio
+window
+video
+image
+CoreCriticalException
+Logger
+camera
+traceback
+clipboard
+text
+kivy
+gl
+spelling

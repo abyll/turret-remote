@@ -1,0 +1,11 @@
+copy
+win32ui
+win32api
+CLR_INVALID
+win32con
+ScintillaFormatPropertyPage
+string
+dialog
+paletteVGA
+scintillacon
+test

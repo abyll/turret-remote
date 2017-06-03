@@ -1,0 +1,15 @@
+PY2
+array
+GifDecoder
+ImageLoader
+struct
+ImageLoaderBase
+Logger
+Gif
+ImageDescriptor
+pack_bits
+ImageLoaderGIF
+get_bits
+Debug
+KNOWN_FORMATS
+ImageData

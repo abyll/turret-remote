@@ -1,0 +1,9 @@
+PY2
+LabelBase
+__all__
+pygame_cache_order
+ImageData
+pygame
+pygame_font_handles
+LabelPygame
+pygame_cache

@@ -1,0 +1,16 @@
+NS_XMPP_SASL
+jid
+xmlstream
+unicode
+DummySASLMechanism
+SASLInitiatingInitializerSetMechanismTests
+sasl
+implementer
+SASLInitiatingInitializerTests
+defer
+DummySASLInitiatingInitializer
+division
+domish
+sasl_mechanisms
+unittest
+absolute_import

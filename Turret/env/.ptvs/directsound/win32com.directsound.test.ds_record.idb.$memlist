@@ -1,0 +1,15 @@
+f
+notify
+buffer
+os
+win32api
+event
+ds
+sdesc
+fname
+pywintypes
+d
+struct
+data
+wav_header_pack
+win32event

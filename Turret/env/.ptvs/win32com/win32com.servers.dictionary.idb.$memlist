@@ -1,0 +1,12 @@
+DictionaryPolicy
+DISPATCH_PROPERTYGET
+DISPATCH_METHOD
+util
+types
+winerror
+S_OK
+pywintypes
+policy
+COMException
+Register
+pythoncom

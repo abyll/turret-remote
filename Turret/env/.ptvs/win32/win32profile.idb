@@ -1,0 +1,12 @@
+Ä}qUmembersq}q(UPI_APPLYPOLICYq}q(UkindqUdataqUvalueq}q	Utypeq
+]qU__builtin__qUintÜqasuUCreateEnvironmentBlockq}q(hUfunctionqh}q(U	overloadsq]q}q(UdocqU*Retrieves environment variables for a userUargsq}q(U
+arg_formatqU*Unameqhu}q(hU**qhUkwargsquÜuahU*Retrieves environment variables for a useruuUGetProfilesDirectoryq}q(hhh}q(h]q }q!(hU2Retrieves directory where user profiles are storedh}q"(hU*hhu}q#(hhhhuÜuahU2Retrieves directory where user profiles are storeduuUGetProfileTypeq$}q%(hhh}q&(h]q'}q((hU&Returns type of current user's profileh}q)(hU*hhu}q*(hhhhuÜuahU&Returns type of current user's profileuuUUnloadUserProfileq+}q,(hhh}q-(h]q.}q/(hU(Unload profile loaded by LoadUserProfileh}q0(hU*hhu}q1(hhhhuÜuahU(Unload profile loaded by LoadUserProfileuuUGetEnvironmentStringsq2}q3(hhh}q4(h]q5}q6(hU3Retrieves environment variables for current processh}q7(hU*hhu}q8(hhhhuÜuahU3Retrieves environment variables for current processuuUGetDefaultUserProfileDirectoryq9}q:(hhh}q;(h]q<}q=(hU&Retrieve profile path for Default userh}q>(hU*hhu}q?(hhhhuÜuahU&Retrieve profile path for Default useruuUPI_NOUIq@}qA(hhh}qBh
+]qChasuU__file__qD}qE(hhh}qFh
+]qGhUstrÜqHasuUGetAllUsersProfileDirectoryqI}qJ(hhh}qK(h]qL}qM(hU$Retrieve All Users profile directoryh}qN(hU*hhu}qO(hhhhuÜuahU$Retrieve All Users profile directoryuuUExpandEnvironmentStringsForUserqP}qQ(hhh}qR(h]qS}qT(hU?Replaces environment variables in a string with per-user valuesh}qU(hU*hhu}qV(hhhhuÜuahU?Replaces environment variables in a string with per-user valuesuuU__package__qW}qX(hhh}qYh
+]qZhUNoneTypeÜq[asuUDeleteProfileq\}q](hhh}q^(h]q_}q`(hURemove a user's profileh}qa(hU*hhu}qb(hhhhuÜuahURemove a user's profileuuUPT_TEMPORARYqc}qd(hhh}qeh
+]qfhasuUGetUserProfileDirectoryqg}qh(hhh}qi(h]qj}qk(hU+Returns profile directory for a logon tokenh}ql(hU*hhu}qm(hhhhuÜuahU+Returns profile directory for a logon tokenuuUPT_MANDATORYqn}qo(hhh}qph
+]qqhasuU__name__qr}qs(hhh}qth
+]quhHasuULoadUserProfileqv}qw(hhh}qx(h]qy}qz(hU$Load user settings for a login tokenh}q{(hU*hhu}q|(hhhhuÜuahU$Load user settings for a login tokenuuU__doc__q}}q~(hhh}qh
+]qÄh[asuU
+PT_ROAMINGqÅ}qÇ(hhh}qÉh
+]qÑhasuus.

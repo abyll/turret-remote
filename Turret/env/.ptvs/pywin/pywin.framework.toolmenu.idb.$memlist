@@ -1,0 +1,17 @@
+sys
+dialog
+app
+defaultToolMenuItems
+string
+HandleToolCommand
+win32con
+tools
+ToolMenuPropPage
+win32ui
+SetToolsMenu
+idPos
+LoadToolMenuItems
+commctrl
+win32api
+LVN_ENDLABELEDIT
+WriteToolMenuItems

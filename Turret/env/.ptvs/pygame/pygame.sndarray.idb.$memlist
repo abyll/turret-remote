@@ -1,0 +1,7 @@
+use_arraytype
+numpysnd
+samples
+array
+make_sound
+get_arraytype
+get_arraytypes

@@ -1,0 +1,8 @@
+os
+pkg_dir
+pkg_name
+is_pygame_pkg
+parent_dir
+MouseModuleTest
+sys
+unittest

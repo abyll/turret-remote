@@ -1,0 +1,17 @@
+sys
+SetHelpMenuOtherHelp
+html_help_command_translators
+htmlhelp_handle
+os
+string
+win32con
+ListAllHelpFiles
+OpenHelpFile
+_ListAllHelpFilesInRoot
+win32ui
+helpIDMap
+FinalizeHelp
+HandleHelpOtherCommand
+win32api
+SelectAndRunHelpFile
+regutil

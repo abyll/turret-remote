@@ -1,0 +1,12 @@
+Joystick
+JoystickType
+_PYGAME_C_API
+__PYGAMEinit__
+__doc__
+__file__
+__name__
+__package__
+get_count
+get_init
+init
+quit

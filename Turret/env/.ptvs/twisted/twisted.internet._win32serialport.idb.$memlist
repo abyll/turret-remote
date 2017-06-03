@@ -1,0 +1,10 @@
+abstract
+EIGHTBITS
+win32file
+SerialPort
+division
+BaseSerialPort
+absolute_import
+STOPBITS_ONE
+win32event
+PARITY_NONE

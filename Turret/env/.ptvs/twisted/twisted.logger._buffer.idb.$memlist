@@ -1,0 +1,5 @@
+implementer
+_DEFAULT_BUFFER_MAXIMUM
+ILogObserver
+deque
+LimitedHistoryLogObserver

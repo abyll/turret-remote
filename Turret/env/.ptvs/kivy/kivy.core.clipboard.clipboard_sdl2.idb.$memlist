@@ -1,0 +1,7 @@
+ClipboardSDL2
+__all__
+_get_text
+platform
+_set_text
+ClipboardBase
+_has_text

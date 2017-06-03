@@ -1,0 +1,11 @@
+IUsernameHashedPassword
+absolute_import
+ICheckerFactory
+IUsernamePassword
+division
+implementer
+theInMemoryCheckerFactory
+InMemoryUsernamePasswordDatabaseDontUse
+InMemoryCheckerFactory
+inMemoryCheckerFactoryHelp
+plugin

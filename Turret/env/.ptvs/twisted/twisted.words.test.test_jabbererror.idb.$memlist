@@ -1,0 +1,16 @@
+BaseErrorTests
+StreamErrorTests
+unicode
+error
+ExceptionFromStreamErrorTests
+ParseErrorTests
+NS_XMPP_STREAMS
+NS_XMPP_STANZAS
+absolute_import
+division
+domish
+NS_XML
+StanzaErrorTests
+NS_STREAMS
+unittest
+ExceptionFromStanzaTests

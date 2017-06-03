@@ -1,0 +1,16 @@
+CenterPoint
+EditCreator
+OffsetRect
+DockingBar
+bar
+struct
+win32con
+window
+DeflateRect
+clrBtnShadow
+win32ui
+test
+afxres
+win32api
+PtInRect
+clrBtnHilight

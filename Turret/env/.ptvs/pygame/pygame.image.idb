@@ -1,0 +1,27 @@
+€}q(UdocqU pygame module for image transferqUmembersq}q(Uloadq}q(UkindqUfunctionq	Uvalueq
+}q(U	overloadsq]q}q(hU pygame module for image transferUargsq}q(U
+arg_formatqU*Unameqhu}q(hU**qhUkwargsqu†uahU pygame module for image transferuuU
+frombufferq}q(hh	h
+}q(h]q}q(Uret_typeq]qUpygame.surfaceqUSurface†qahU<create a new Surface that shares data inside a string bufferh}qhUstrings}q hUsizes}q!hUformats‡uahUhfrombuffer(string, size, format) -> Surface
+create a new Surface that shares data inside a string bufferuuUget_extendedq"}q#(hh	h
+}q$(h]q%}q&(h]q'U__builtin__q(Ubool†q)ahU,test if extended image formats can be loadedh)uahUCget_extended() -> bool
+test if extended image formats can be loadeduuU
+load_basicq*}q+(hh	h
+}q,(h]q-}q.(hUXload(filename) -> Surface
+load(fileobj, namehint=) -> Surface
+load new image from a fileh}q/(hU*hhu}q0(hhhhu†uahUXload(filename) -> Surface
+load(fileobj, namehint=) -> Surface
+load new image from a fileuuU__file__q1}q2(hUdataq3h
+}q4Utypeq5]q6h(Ustr†q7asuU__package__q8}q9(hh3h
+}q:h5]q;h(UNoneType†q<asuUload_extendedq=}q>(hh	h
+}q?(h]q@}qA(hU pygame module for image transferh}qB(hU*hhu}qC(hhhhu†uahU pygame module for image transferuuUtostringqD}qE(hh	h
+}qF(h]qG}qH(h]qIh7ahUtransfer image to string bufferh}qJhUSurfaces}qKhUformats}qL(Udefault_valueqMUFalsehUflippedu‡uahURtostring(Surface, format, flipped=False) -> string
+transfer image to string bufferuuU
+fromstringqN}qO(hh	h
+}qP(h]qQ}qR(h]qShahU'create new Surface from a string bufferh(}qThUstrings}qUhUsizes}qVhUformats}qW(hMUFalsehUflippedutuahUbfromstring(string, size, format, flipped=False) -> Surface
+create new Surface from a string bufferuuU__name__qX}qY(hh3h
+}qZh5]q[h7asuUsaveq\}q](hh	h
+}q^(h]q_}q`(h]qah<ahUsave an image to diskh}qbhUSurfaces}qchUfilenames†uahU5save(Surface, filename) -> None
+save an image to diskuuU__doc__qd}qe(hh3h
+}qfh5]qgh7asuUsave_extendedqh}qi(hh	h
+}qj(h]qk}ql(hU pygame module for image transferh}qm(hU*hhu}qn(hhhhu†uahU pygame module for image transferuuuu.

@@ -1,0 +1,17 @@
+serial
+SEVENBITS
+STOPBITS_ONE
+STOPBITS_TWO
+SIXBITS
+BaseSerialPort
+absolute_import
+__all__
+PARITY_ODD
+PARITY_EVEN
+_oldStyle
+division
+SerialPort
+EIGHTBITS
+FIVEBITS
+platform
+PARITY_NONE

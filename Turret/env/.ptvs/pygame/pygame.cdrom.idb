@@ -1,0 +1,19 @@
+€}q(UdocqU%pygame module for audio cdrom controlqUmembersq}q(Uquitq}q(UkindqUfunctionq	Uvalueq
+}q(U	overloadsq]q}q(Uret_typeq]qU__builtin__qUNoneType†qahUuninitialize the cdrom moduleUargsq)uahU,quit() -> None
+uninitialize the cdrom moduleuuUget_initq}q(hh	h
+}q(h]q}q(h]qhUbool†qahU'true if the cdrom module is initializedh)uahU:get_init() -> bool
+true if the cdrom module is initializeduuU__file__q}q(hUdataqh
+}qUtypeq]q hUstr†q!asuU_PYGAME_C_APIq"}q#(hhh
+}q$h]q%hU	PyCapsule†q&asuUCDq'}q((hh	h
+}q)(h]q*}q+(h]q,Upygame.cdromq-UCD†q.ahUclass to manage a cdrom driveh}q/Unameq0Uids…uahU*CD(id) -> CD
+class to manage a cdrom driveuuUinitq1}q2(hh	h
+}q3(h]q4}q5(h]q6hahUinitialize the cdrom moduleh)uahU*init() -> None
+initialize the cdrom moduleuuUCDTypeq7}q8(hUtyperefq9h
+]q:hUCD†q;auU	get_countq<}q=(hh	h
+}q>(h]q?}q@(h]qAUheapqqBUcount†qCahU!number of cd drives on the systemh)uahU6get_count() -> count
+number of cd drives on the systemuuU__name__qD}qE(hhh
+}qFh]qGh!asuU__package__qH}qI(hhh
+}qJh]qKhasuU__doc__qL}qM(hhh
+}qNh]qOh!asuU__PYGAMEinit__qP}qQ(hh	h
+}qR(h]qS}qT(hUauto initialize functionh}qU(U
+arg_formatqVU*h0hu}qW(hVU**qXh0UkwargsqYu†uahUauto initialize functionuuuu.

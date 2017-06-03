@@ -1,0 +1,8 @@
+_PY3
+os
+absolute_import
+notPortedModules
+division
+twisted
+TestCase
+ModulesToInstallTests

@@ -1,0 +1,6 @@
+exception
+winerror
+register
+win32pdhutil
+PerfMonQuery
+pythoncom

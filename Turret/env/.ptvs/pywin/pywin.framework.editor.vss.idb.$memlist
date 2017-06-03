@@ -1,0 +1,11 @@
+FindVssProjectInfo
+win32ui
+win32api
+g_iniName
+traceback
+string
+os
+CheckoutFile
+g_sourceSafe
+win32con
+sys

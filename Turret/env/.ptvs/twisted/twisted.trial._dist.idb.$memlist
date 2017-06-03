@@ -1,0 +1,11 @@
+workerreporter
+worker
+_WORKER_AMP_STDIN
+test
+distreporter
+_WORKER_AMP_STDOUT
+workercommands
+workertrial
+options
+managercommands
+disttrial

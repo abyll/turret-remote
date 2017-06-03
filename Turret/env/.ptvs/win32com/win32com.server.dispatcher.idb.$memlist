@@ -1,0 +1,14 @@
+win32trace
+DispatcherWin32dbg
+DispatcherOutputDebugString
+win32api
+DispatcherBase
+traceback
+IIDToInterfaceName
+exc_info
+DefaultDebugDispatcher
+DispatcherTrace
+DispatcherWin32trace
+IsCOMServerException
+pythoncom
+win32com

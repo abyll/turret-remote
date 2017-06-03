@@ -1,0 +1,7 @@
+_PY3
+StringURLPathTests
+_BaseURLPathTests
+urlpath
+UnicodeURLPathTests
+BytesURLPathTests
+unittest

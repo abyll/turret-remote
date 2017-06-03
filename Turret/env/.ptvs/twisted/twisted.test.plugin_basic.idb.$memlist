@@ -1,0 +1,7 @@
+provider
+TestPlugin
+ITestPlugin
+IPlugin
+AnotherTestPlugin
+ITestPlugin2
+ThirdTestPlugin

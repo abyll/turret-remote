@@ -1,0 +1,16 @@
+CODES_TO_CONDITIONS
+unicode
+StreamError
+NS_XML
+copy
+STANZA_CONDITIONS
+NS_XMPP_STREAMS
+NS_XMPP_STANZAS
+absolute_import
+division
+domish
+exceptionFromStanza
+_parseError
+exceptionFromStreamError
+StanzaError
+BaseError

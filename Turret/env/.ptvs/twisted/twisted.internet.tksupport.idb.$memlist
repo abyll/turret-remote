@@ -1,0 +1,10 @@
+installTkFunctions
+task
+uninstall
+__all__
+install
+getPassword
+_PY3
+_task
+tkSimpleDialog
+tkMessageBox

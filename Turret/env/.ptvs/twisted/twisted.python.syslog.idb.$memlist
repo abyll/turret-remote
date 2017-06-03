@@ -1,0 +1,7 @@
+DEFAULT_FACILITY
+SyslogObserver
+log
+_oldStyle
+syslog
+startLogging
+DEFAULT_OPTIONS

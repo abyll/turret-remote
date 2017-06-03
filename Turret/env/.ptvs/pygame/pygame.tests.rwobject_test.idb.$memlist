@@ -1,0 +1,15 @@
+as_bytes
+parent_dir
+as_unicode
+encode_string
+pkg_dir
+pkg_name
+bytes_
+is_pygame_pkg
+encode_file_path
+RWopsEncodeStringTest
+os
+getrefcount
+RWopsEncodeFilePathTest
+sys
+unittest

@@ -1,0 +1,7 @@
+FrameWnd
+MDIChildWnd
+win32ui
+MDIFrameWnd
+win32con
+object
+Wnd

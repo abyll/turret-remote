@@ -1,0 +1,13 @@
+PY2
+absolute_import
+types
+iteritems
+isclass
+division
+print_function
+TYPE
+ReadOnlyDict
+iterkeys
+IterableUserDict
+sys
+metadata_proxy

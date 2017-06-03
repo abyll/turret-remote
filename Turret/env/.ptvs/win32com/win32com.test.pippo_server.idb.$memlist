@@ -1,0 +1,10 @@
+os
+UnregisterTypelib
+CPippo
+winerror
+main
+BuildTypelib
+pythoncom
+wrap
+sys
+win32com

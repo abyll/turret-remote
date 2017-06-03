@@ -1,0 +1,14 @@
+implementer
+irc
+ONLINE
+basesupport
+IRCAccount
+IRCProto
+interfaces
+defer
+succeed
+reactor
+protocol
+IRCPerson
+IRCGroup
+locals

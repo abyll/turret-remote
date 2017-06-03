@@ -1,0 +1,14 @@
+test_rfc1982
+test_rootresolve
+test_examples
+test_srvconnect
+test_names
+test_resolve
+test_hosts
+test_common
+test_server
+test_cache
+test_tap
+test_client
+test_util
+test_dns

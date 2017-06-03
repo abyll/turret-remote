@@ -1,0 +1,9 @@
+NSString
+autoclass
+NSPasteboard
+__all__
+INCLUDE
+platform
+ClipboardNSPaste
+ClipboardBase
+load_framework

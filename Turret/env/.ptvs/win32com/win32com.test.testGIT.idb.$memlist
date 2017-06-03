@@ -1,0 +1,12 @@
+thread
+TestInterpInThread
+TestInterp
+DoTestInterpInThread
+traceback
+test
+BeginThreadsSimpleMarshal
+win32api
+CreateGIT
+pythoncom
+win32event
+win32com

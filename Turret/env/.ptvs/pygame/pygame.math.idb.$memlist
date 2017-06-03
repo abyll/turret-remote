@@ -1,0 +1,11 @@
+Vector2
+Vector3
+VectorElementwiseProxy
+VectorIterator
+_PYGAME_C_API
+__doc__
+__file__
+__name__
+__package__
+disable_swizzling
+enable_swizzling

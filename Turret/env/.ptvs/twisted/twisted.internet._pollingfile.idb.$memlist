@@ -1,0 +1,17 @@
+unicode
+_PollableWritePipe
+IPushProducer
+MIN_TIMEOUT
+implementer
+absolute_import
+_PollableReadPipe
+_PollingTimer
+division
+win32pipe
+IConsumer
+FULL_BUFFER_SIZE
+win32api
+pywintypes
+MAX_TIMEOUT
+_PollableResource
+win32file

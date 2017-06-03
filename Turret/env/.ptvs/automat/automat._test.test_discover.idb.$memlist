@@ -1,0 +1,15 @@
+OriginalLocationTests
+_WritesPythonModules
+six
+os
+operator
+skipIf
+tempfile
+FindMachinesIntegrationTests
+FindMachinesViaWrapperTests
+shutil
+isTwistedInstalled
+textwrap
+TestCase
+sys
+WrapFQPNTests

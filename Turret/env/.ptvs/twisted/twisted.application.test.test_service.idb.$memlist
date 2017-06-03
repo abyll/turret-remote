@@ -1,0 +1,10 @@
+verifyObject
+Application
+IProcess
+absolute_import
+TestCase
+division
+IService
+IServiceCollection
+ApplicationTests
+IPersistable

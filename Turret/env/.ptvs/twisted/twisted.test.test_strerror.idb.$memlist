@@ -1,0 +1,9 @@
+ErrorFormatingTests
+os
+ECONNABORTED
+TestCase
+platform
+socket
+_ErrorFormatter
+formatError
+_MyWindowsException

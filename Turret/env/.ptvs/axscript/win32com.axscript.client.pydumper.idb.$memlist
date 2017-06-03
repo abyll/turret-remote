@@ -1,0 +1,11 @@
+PyDump_CLSID
+pyscript
+Register
+AXScriptAttribute
+NamedScriptAttribute
+trace
+RaiseAssert
+PyScript
+SCRIPTTEXT_FORCEEXECUTION
+Exception
+axscript

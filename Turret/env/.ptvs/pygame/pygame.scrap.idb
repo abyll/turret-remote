@@ -1,0 +1,15 @@
+€}qUmembersq}q(U	get_typesq}q(UkindqUfunctionqUvalueq}q	(U	overloadsq
+]q}q(Uret_typeq]qU__builtin__qUlist†qaUdocqU-Gets a list of the available clipboard types.Uargsq)uahUBget_types () -> list
+Gets a list of the available clipboard types.uuUset_modeq}q(hhh}q(h
+]q}q(h]qhUNoneType†qahUSets the clipboard access mode.h}qUnameqUmodes…uahU6set_mode(mode) -> None
+Sets the clipboard access mode.uuUlostq}q(hhh}q(h
+]q}q (h]q!hUbool†q"ahUCChecks whether the clipboard is currently owned by the application.h)uahURlost() -> bool
+Checks whether the clipboard is currently owned by the application.uuUgetq#}q$(hhh}q%(h
+]q&}q'(h]q(hUstr†q)ahU8Gets the data for the specified type from the clipboard.h}q*hUtypes…uahULget (type) -> bytes
+Gets the data for the specified type from the clipboard.uuU__file__q+}q,(hUdataq-h}q.Utypeq/]q0h)asuUcontainsq1}q2(hhh}q3(h
+]q4}q5(h]q6h"ahU=Checks, whether a certain type is available in the clipboard.h}q7hUtypes…uahUUcontains (type) -> bool
+Checks, whether a certain type is available in the clipboard.uuU__package__q8}q9(hh-h}q:h/]q;hasuUinitq<}q=(hhh}q>(h
+]q?}q@(h]qAhahUInitializes the scrap module.h)uahU-init () -> None
+Initializes the scrap module.uuUputqB}qC(hhh}qD(h
+]qE}qF(h]qGhahUPlaces data into the clipboard.h}qHhUtypes}qIhUdatas†uahU7put(type, data) -> None
+Places data into the clipboard.uuU__name__qJ}qK(hh-h}qLh/]qMh)asuU__doc__qN}qO(hh-h}qPh/]qQhasuus.

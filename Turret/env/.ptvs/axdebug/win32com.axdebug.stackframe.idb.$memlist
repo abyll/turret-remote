@@ -1,0 +1,14 @@
+DebugStackFrameSniffer
+EnumDebugStackFrames
+COMException
+gateways
+pythoncom
+axdebug
+expressions
+trace
+StackFrameDebugProperty
+_wrap
+DebugStackFrame
+winerror
+sys
+RaiseNotImpl

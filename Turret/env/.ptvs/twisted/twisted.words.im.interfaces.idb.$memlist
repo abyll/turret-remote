@@ -1,0 +1,9 @@
+IChatUI
+Interface
+IConversation
+IGroupConversation
+Attribute
+IClient
+IAccount
+IGroup
+IPerson

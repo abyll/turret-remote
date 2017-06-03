@@ -1,0 +1,9 @@
+install_gobject_iteration
+__all__
+platform
+Gtk
+Gdk
+ClipboardGtk3
+ClipboardBase
+clipboard
+gi

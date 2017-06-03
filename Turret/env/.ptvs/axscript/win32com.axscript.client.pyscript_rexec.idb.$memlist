@@ -1,0 +1,7 @@
+pyscript
+INTERFACE_USES_DISPEX
+winerror
+axscript
+INTERFACE_USES_SECURITY_MANAGER
+pythoncom
+PyScriptRExec

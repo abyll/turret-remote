@@ -1,0 +1,19 @@
+€}q(UdocqUGPygame module for interacting with joysticks, gamepads, and trackballs.qUmembersq}q(Uquitq}q(UkindqUfunctionq	Uvalueq
+}q(U	overloadsq]q}q(Uret_typeq]qU__builtin__qUNoneType†qahU!Uninitialize the joystick module.Uargsq)uahU0quit() -> None
+Uninitialize the joystick module.uuUget_initq}q(hh	h
+}q(h]q}q(h]qhUbool†qahU3Returns True if the joystick module is initialized.h)uahUFget_init() -> bool
+Returns True if the joystick module is initialized.uuU__file__q}q(hUdataqh
+}qUtypeq]q hUstr†q!asuU_PYGAME_C_APIq"}q#(hhh
+}q$h]q%hU	PyCapsule†q&asuUJoystickTypeq'}q((hUtyperefq)h
+]q*hUJoystick†q+auU__package__q,}q-(hhh
+}q.h]q/hasuUinitq0}q1(hh	h
+}q2(h]q3}q4(h]q5hahUInitialize the joystick module.h)uahU.init() -> None
+Initialize the joystick module.uuU	get_countq6}q7(hh	h
+}q8(h]q9}q:(h]q;Uheapqq<Ucount†q=ahU Returns the number of joysticks.h)uahU5get_count() -> count
+Returns the number of joysticks.uuU__name__q>}q?(hhh
+}q@h]qAh!asuUJoystickqB}qC(hh	h
+}qD(h]qE}qF(h]qGUpygame.joystickqHUJoystick†qIahUCreate a new Joystick object.h}qJUnameqKUids…uahU6Joystick(id) -> Joystick
+Create a new Joystick object.uuU__doc__qL}qM(hhh
+}qNh]qOh!asuU__PYGAMEinit__qP}qQ(hh	h
+}qR(h]qS}qT(hU%auto initialize function for joystickh}qU(U
+arg_formatqVU*hKhu}qW(hVU**qXhKUkwargsqYu†uahU%auto initialize function for joystickuuuu.

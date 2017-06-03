@@ -1,0 +1,17 @@
+sys
+pygame
+ctypes
+re
+os
+as_bytes
+pkg_dir
+BufferProxyLegacyTest
+parent_dir
+BufferProxy
+pkg_name
+gc
+weakref
+is_pygame_pkg
+BufferProxyTest
+BufferError
+unittest

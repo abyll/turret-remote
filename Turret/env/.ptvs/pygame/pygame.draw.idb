@@ -1,0 +1,24 @@
+€}q(UdocqU pygame module for drawing shapesqUmembersq}q(Uaalineq}q(UkindqUfunctionq	Uvalueq
+}q(U	overloadsq]q}q(Uret_typeq]qUpygame.spriteqURect†qahUdraw fine antialiased linesUargsq(}qUnameqUSurfaces}qhUcolors}qhUstartposs}qhUendposs}q(Udefault_valueqU1hUblendutuahUUaaline(Surface, color, startpos, endpos, blend=1) -> Rect
+draw fine antialiased linesuuUpolygonq}q(hh	h
+}q(h]q}q(h]q hahU%draw a shape with any number of sidesh(}q!hUSurfaces}q"hUcolors}q#hU	pointlists}q$(hU0hUwidthutuahUYpolygon(Surface, color, pointlist, width=0) -> Rect
+draw a shape with any number of sidesuuU__file__q%}q&(hUdataq'h
+}q(Utypeq)]q*U__builtin__q+Ustr†q,asuUlinesq-}q.(hh	h
+}q/(h]q0}q1(h]q2hahU&draw multiple contiguous line segmentsh(}q3hUSurfaces}q4hUcolors}q5hUcloseds}q6hU	pointlists}q7(hU1hUwidthutuahU`lines(Surface, color, closed, pointlist, width=1) -> Rect
+draw multiple contiguous line segmentsuuUcircleq8}q9(hh	h
+}q:(h]q;}q<(h]q=hahUdraw a circle around a pointh(}q>hUSurfaces}q?hUcolors}q@hUposs}qAhUradiuss}qB(hU0hUwidthutuahUQcircle(Surface, color, pos, radius, width=0) -> Rect
+draw a circle around a pointuuU__package__qC}qD(hh'h
+}qEh)]qFh+UNoneType†qGasuUarcqH}qI(hh	h
+}qJ(h]qK}qL(h]qMhahU$draw a partial section of an ellipseh(}qNhUSurfaces}qOhUcolors}qPhURects}qQhUstart_angles}qRhU
+stop_angles}qS(hU1hUwidthutuahUharc(Surface, color, Rect, start_angle, stop_angle, width=1) -> Rect
+draw a partial section of an ellipseuuU__doc__qT}qU(hh'h
+}qVh)]qWh,asuUaalinesqX}qY(hh	h
+}qZ(h]q[}q\(h]q]hahU.draw a connected sequence of antialiased linesh(}q^hUSurfaces}q_hUcolors}q`hUcloseds}qahU	pointlists}qb(hU1hUblendutuahUjaalines(Surface, color, closed, pointlist, blend=1) -> Rect
+draw a connected sequence of antialiased linesuuU__name__qc}qd(hh'h
+}qeh)]qfh,asuUlineqg}qh(hh	h
+}qi(h]qj}qk(h]qlhahUdraw a straight line segmenth(}qmhUSurfaces}qnhUcolors}qohU	start_poss}qphUend_poss}qq(hU1hUwidthutuahUVline(Surface, color, start_pos, end_pos, width=1) -> Rect
+draw a straight line segmentuuUellipseqr}qs(hh	h
+}qt(h]qu}qv(h]qwhahU%draw a round shape inside a rectangleh(}qxhUSurfaces}qyhUcolors}qzhURects}q{(hU0hUwidthutuahUTellipse(Surface, color, Rect, width=0) -> Rect
+draw a round shape inside a rectangleuuUrectq|}q}(hh	h
+}q~(h]q}q€(h]qhahUdraw a rectangle shapeh(}q‚hUSurfaces}qƒhUcolors}q„hURects}q…(hU0hUwidthutuahUBrect(Surface, color, Rect, width=0) -> Rect
+draw a rectangle shapeuuuu.

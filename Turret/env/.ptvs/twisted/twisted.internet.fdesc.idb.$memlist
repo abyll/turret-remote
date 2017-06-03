@@ -1,0 +1,12 @@
+CONNECTION_LOST
+setBlocking
+os
+__all__
+writeToFD
+CONNECTION_DONE
+setNonBlocking
+_unsetCloseOnExec
+_setCloseOnExec
+errno
+fcntl
+readFromFD

@@ -1,0 +1,12 @@
+FeedEventLogRecords
+SafeFormatMessage
+FormatMessage
+win32api
+win32con
+langid
+error
+AddSourceToRegistry
+RemoveSourceFromRegistry
+ReportEvent
+winerror
+win32evtlog

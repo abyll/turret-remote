@@ -1,0 +1,16 @@
+TYPE_BOUNDARY_CONTOURS
+TYPE_POLYGONS
+Tesselator
+WINDING_ABS_GEQ_TWO
+WINDING_NEGATIVE
+WINDING_NONZERO
+WINDING_ODD
+WINDING_POSITIVE
+__all__
+__builtins__
+__doc__
+__file__
+__name__
+__package__
+__test__
+array

@@ -1,0 +1,10 @@
+os
+pkg_dir
+pkg_name
+is_pygame_pkg
+encode_file_path
+compat
+parent_dir
+CompatModuleTest
+sys
+unittest

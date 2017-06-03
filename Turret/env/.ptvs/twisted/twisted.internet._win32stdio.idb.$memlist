@@ -1,0 +1,16 @@
+Win32PipeAddress
+division
+IHalfCloseableProtocol
+IAddress
+os
+IConsumer
+IPushProducer
+implementer
+absolute_import
+msvcrt
+_pollingfile
+ITransport
+StandardIO
+Failure
+win32api
+main

@@ -1,0 +1,10 @@
+InterpCase
+win32api
+threading
+traceback
+win32com
+freeThreaded
+ThreadInterpCase
+pythoncom
+win32event
+unittest

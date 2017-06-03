@@ -1,0 +1,13 @@
+MakeTestDictionary
+TestDict
+pythoncom
+winerror
+win32com
+error
+TestDictAgainst
+pywintypes
+TestCase
+Register
+traceback
+sys
+unittest

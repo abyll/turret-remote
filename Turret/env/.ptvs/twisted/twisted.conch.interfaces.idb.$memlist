@@ -1,0 +1,7 @@
+IConchUser
+ISFTPServer
+Attribute
+Interface
+ISFTPFile
+ISession
+IKnownHostEntry

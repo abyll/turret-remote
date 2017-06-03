@@ -1,0 +1,10 @@
+test_scripts
+test_imap
+test_options
+test_bounce
+test_mail
+test_smtp
+test_mailmail
+test_pop3client
+test_pop3
+pop3testserver

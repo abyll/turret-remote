@@ -1,0 +1,9 @@
+ConnectableClient
+IID_IConnectDemoEvents
+ConnectableServer
+test
+str2bytes
+CheckEvent
+Exception
+pythoncom
+win32com
