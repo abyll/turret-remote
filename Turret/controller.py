@@ -8,7 +8,7 @@ from twisted.internet import reactor
 from twisted.internet.protocol import Factory
 from twisted.internet.endpoints import TCP4ClientEndpoint
 from twisted.application.service import Application
-from twisted.application.internet import ClientService, backoffPolicy
+#from twisted.application.internet import ClientService, backoffPolicy
 
 from twisted.protocols.amp import Integer, Float, String, Boolean, Command
 from twisted.protocols import amp
@@ -74,6 +74,8 @@ class TurretControlProtocol(amp.AMP):
 
 def connect(factory):
     endpoint = TCP4ClientEndpoint(reactor, 'abyll-pi.local', 8750)
-    service = ClientService(endpoint, factory, retryPolicy=backoffPolicy(0.5, 15.0))
-    service.startService()
-    return service.whenConnected()
+    #service = ClientService(endpoint, factory, retryPolicy=backoffPolicy(0.5, 15.0))
+    #service.startService()
+    #d = service.whenConnected()
+    d = endpoint.connect(factory)
+    return d
