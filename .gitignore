@@ -22,6 +22,12 @@ bld/
 [Bb]in/
 [Oo]bj/
 env/
+
+#buildozer related
+*[bB]uildozer*
+*[bB]uildozer*/
+log.txt
+
 # Visual Studio 2015 cache/options directory
 .vs/
 # Uncomment if you have tasks that create the project's static files in wwwroot

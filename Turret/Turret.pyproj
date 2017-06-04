@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>93080f5f-0f38-466c-bdfd-cb493b747b24</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ClientApp.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,7 +24,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ClientApp.py" />
+    <Compile Include="main.py" />
     <Compile Include="controller.py" />
     <Compile Include="controller_client.py" />
   </ItemGroup>
