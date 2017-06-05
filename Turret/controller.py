@@ -73,7 +73,7 @@ class TurretControlProtocol(amp.AMP):
         return super(TurretControlProtocol, self).connectionMade()
 
 def connect(factory):
-    endpoint = TCP4ClientEndpoint(reactor, 'abyll-pi.local', 8750)
+    endpoint = TCP4ClientEndpoint(reactor, '192.168.43.160', 8750)
     #service = ClientService(endpoint, factory, retryPolicy=backoffPolicy(0.5, 15.0))
     #service.startService()
     #d = service.whenConnected()

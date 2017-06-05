@@ -7,7 +7,7 @@ from twisted.python.log import startLogging, err
 from twisted.internet import reactor, task
 from twisted.internet.protocol import Factory, ClientFactory
 from twisted.internet.endpoints import TCP4ClientEndpoint
-from twisted.application.internet import ClientService, backoffPolicy
+#from twisted.application.internet import ClientService, backoffPolicy
 
 from twisted.protocols.amp import Integer, Float, String, Boolean, Command
 from twisted.protocols import amp
