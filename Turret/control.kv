@@ -13,7 +13,13 @@
             text: 'Just Testing'
             size: 33, 33
             size_hint: .3, .3
-
+    AnchorLayout:
+        anchor_x: 'right'
+        anchor_y: 'top'
+        SmButton:
+            id: settings
+            text: "Settings"
+            on_press: root.open_settings()
     AnchorLayout:
         anchor_y: 'top'
         anchor_x: 'center'

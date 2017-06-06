@@ -17,12 +17,12 @@ from controller import *
 __version__ = "0.0.2"
 
 class ControlScreen(FloatLayout):
-    def __init__(self, *args, **kwargs):
+    def __init__(self, app, *args, **kwargs):
+        self.app = app
         super(ControlScreen, self).__init__(*args, **kwargs)
         self.protocol = None
 
     def TiltUp(self):
-        print("Up %s" %(self.protocol!=None))
         if self.protocol:
             self.protocol.callRemote(TiltCommand, speed=45.0)
     
@@ -49,6 +49,8 @@ class ControlScreen(FloatLayout):
     def Fire(self):
         if self.protocol:
             self.protocol.callRemote(FireCommand)
+    def open_settings(self):
+        self.app.open_settings()
 
 class KivyControllerFactory(Factory):
     protocol = TurretControlProtocol
@@ -76,7 +78,7 @@ class ControlApp(App):
         self.keepalive = None
         d = self.connect(KivyControllerFactory(self), self.config.get("RemoteConnection", "server"), int(self.config.get("RemoteConnection", "port")))
         d.addErrback(err, 'connection failed')
-        self.screen = ControlScreen()
+        self.screen = ControlScreen(self)
         return self.screen
         
     def connect(self, factory, dest, port):
@@ -87,8 +89,9 @@ class ControlApp(App):
         d = self.endpoint.connect(factory)
         return d
     
-    # def disconnect(self):
-        # self.service.stopService()
+    def disconnect(self):
+         #self.service.stopService()
+        pass
     
     def connected(self, server):
         print("Connection Established %s" %server)
@@ -107,22 +110,22 @@ class ControlApp(App):
         })
 
     def build_settings(self, settings):
-        settings.add_json_panel('SentryMote', self.config, """[
-    { "type": "title",
-      "title": "SentryMote" },
+        settings.add_json_panel('SentryMote', self.config, data="""[
+        { "type": "title",
+          "title": "SentryMote" },
 
-    { "type": "string",
-      "title": "Server",
-      "desc": "Select IP or hostname of turret",
-      "section": "RemoteConnection",
-      "key": "server"},
+        { "type": "string",
+          "title": "Server",
+          "desc": "Select IP or hostname of turret",
+          "section": "RemoteConnection",
+          "key": "server"},
 
-    { "type": "numeric",
-      "title": "Port",
-      "desc": "server port",
-      "section": "RemoteConnection",
-      "key": "port" }
-]"""
+        { "type": "numeric",
+          "title": "Port",
+          "desc": "server port",
+          "section": "RemoteConnection",
+          "key": "port" }
+        ]""")
 
     def on_config_change(self, config, section, key, value):
         if config is self.config:
