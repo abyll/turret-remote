@@ -24,7 +24,6 @@ bld/
 env/
 
 #buildozer related
-*[bB]uildozer*
 *[bB]uildozer*/
 log.txt
 

@@ -7,14 +7,14 @@ from twisted.python.log import startLogging, err
 from twisted.internet.protocol import Factory
 from kivy.support import install_twisted_reactor
 install_twisted_reactor()
-# from twisted.application.internet import ClientService, backoffPolicy
+#from twisted.application.internet import ClientService, backoffPolicy
 from kivy.app import App
 from kivy.uix.floatlayout import FloatLayout
 from kivy.clock import Clock
 from kivy.storage.dictstore import DictStore
 from controller import *
 
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 
 class ControlScreen(FloatLayout):
     def __init__(self, *args, **kwargs):
@@ -74,8 +74,7 @@ class KivyControllerFactory(Factory):
 class ControlApp(App):
     def build(self):
         self.keepalive = None
-        d = self.connect(KivyControllerFactory(self), '192.168.43.160', 8750)
-            # self.config.get("RemoteConnection", "server"), int(self.config.get("RemoteConnection", "port")))
+        d = self.connect(KivyControllerFactory(self), self.config.get("RemoteConnection", "server"), int(self.config.get("RemoteConnection", "port")))
         d.addErrback(err, 'connection failed')
         self.screen = ControlScreen()
         return self.screen
@@ -101,35 +100,35 @@ class ControlApp(App):
         self.keepalive.cancel()
         self.screen.protocol = None
 
-    # def build_config(self, config):
-        # config.setdefaults('RemoteConnection', {
-            # 'server': '192.168.43.160',
-            # 'port': '8750'
-        # })
+    def build_config(self, config):
+        config.setdefaults('RemoteConnection', {
+            'server': '192.168.43.160',
+            'port': 8750
+        })
 
-    # def build_settings(self, settings):
-        # settings.add_json_panel('SentryMote', self.config, """[
-        # { "type": "title",
-          # "title": "SentryMote" },
+    def build_settings(self, settings):
+        settings.add_json_panel('SentryMote', self.config, """[
+    { "type": "title",
+      "title": "SentryMote" },
 
-        # { "type": "string",
-          # "title": "Server",
-          # "desc": "Select IP or hostname of turret",
-          # "section": "RemoteConnection",
-          # "key": "server"},
+    { "type": "string",
+      "title": "Server",
+      "desc": "Select IP or hostname of turret",
+      "section": "RemoteConnection",
+      "key": "server"},
 
-        # { "type": "numeric",
-          # "title": "Port",
-          # "desc": "server port",
-          # "section": "RemoteConnection",
-          # "key": "port" }
-# ]"""
+    { "type": "numeric",
+      "title": "Port",
+      "desc": "server port",
+      "section": "RemoteConnection",
+      "key": "port" }
+]"""
 
-    # def on_config_change(self, config, section, key, value):
-        # if config is self.config:
-            # self.disconnect()
-            # d = self.connect(KivyControllerFactory(self), self.config.get("RemoteConnection", "server"), int(self.config.get("RemoteConnection", "port")))
-            # d.addErrback(err, 'connection failed')
+    def on_config_change(self, config, section, key, value):
+        if config is self.config:
+            self.disconnect()
+            d = self.connect(KivyControllerFactory(self), self.config.get("RemoteConnection", "server"), int(self.config.get("RemoteConnection", "port")))
+            d.addErrback(err, 'connection failed')
 
 def main():
     startLogging(stdout)
