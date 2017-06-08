@@ -8,19 +8,24 @@ from twisted.internet.protocol import Factory
 from kivy.support import install_twisted_reactor
 install_twisted_reactor()
 #from twisted.application.internet import ClientService, backoffPolicy
+
 from kivy.app import App
 from kivy.uix.floatlayout import FloatLayout
+from kivy.properties import StringProperty
 from kivy.clock import Clock
 from kivy.storage.dictstore import DictStore
+
 from controller import *
 
 __version__ = "0.0.4"
 
 class ControlScreen(FloatLayout):
+    connection_status = StringProperty()
     def __init__(self, app, *args, **kwargs):
         self.app = app
         super(ControlScreen, self).__init__(*args, **kwargs)
         self.protocol = None
+        self.connection_status = "Disconnected"
 
     def TiltUp(self):
         if self.protocol:
@@ -36,11 +41,11 @@ class ControlScreen(FloatLayout):
     
     def PanLeft(self):
         if self.protocol:
-            self.protocol.callRemote(PanCommand, speed=10.0)
+            self.protocol.callRemote(PanCommand, speed=-1.0)
 
     def PanRight(self):
         if self.protocol:
-            self.protocol.callRemote(PanCommand, speed=-10.0)
+            self.protocol.callRemote(PanCommand, speed=1.0)
 
     def StopPan(self):
         if self.protocol:
@@ -98,11 +103,13 @@ class ControlApp(App):
     
     def connected(self, server):
         print("Connection Established %s" %server)
+        self.screen.connection_status = "Connected"
         self.screen.protocol = server
         self.keepalive = Clock.schedule_interval(lambda dt: server.callRemote(KeepalivePing), int(self.config.get("Connection", "keepalive"))) # once per second
         
     def disconnected(self):
         print("Connection lost, reestablishing...")
+        self.screen.connection_status = "Disconnected"
         self.keepalive.cancel()
         self.screen.protocol = None
 
