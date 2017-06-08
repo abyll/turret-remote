@@ -93,7 +93,8 @@ class ControlApp(App):
     
     def disconnect(self):
         print("Disconnecting intentionally")
-        return self.screen.protocol.disconnect()
+        if self.screen.protocol: #Can't disconnect if we're not connected.
+            return self.screen.protocol.disconnect()
     
     def connected(self, server):
         print("Connection Established %s" %server)
@@ -132,8 +133,11 @@ class ControlApp(App):
 
     def on_config_change(self, config, section, key, value):
         if config is self.config:
-            disconnected = self.disconnect()
-            disconnected.addCallback(self.connect)
+            disconnect = self.disconnect()
+            if disconnect:
+                disconnect.addCallback(self.connect)
+            else: # We didnt have to wait; we may already have been disconnected.
+                self.connect()
             
 
 def main():
