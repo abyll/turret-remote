@@ -63,6 +63,9 @@ class TurretControlProtocol(amp.AMP):
     def keepalive(self):
         print("alive")
         return {}
+    
+    def disconnect(self):
+        return self.transport.loseConnection()
 
     def connectionLost(self, reason):
         self.factory.connectionLost(reason)

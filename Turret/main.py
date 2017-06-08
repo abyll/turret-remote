@@ -14,7 +14,7 @@ from kivy.clock import Clock
 from kivy.storage.dictstore import DictStore
 from controller import *
 
-__version__ = "0.0.2"
+__version__ = "0.0.4"
 
 class ControlScreen(FloatLayout):
     def __init__(self, app, *args, **kwargs):
@@ -49,6 +49,7 @@ class ControlScreen(FloatLayout):
     def Fire(self):
         if self.protocol:
             self.protocol.callRemote(FireCommand)
+    
     def open_settings(self):
         self.app.open_settings()
 
@@ -76,27 +77,28 @@ class KivyControllerFactory(Factory):
 class ControlApp(App):
     def build(self):
         self.keepalive = None
-        d = self.connect(KivyControllerFactory(self), self.config.get("RemoteConnection", "server"), int(self.config.get("RemoteConnection", "port")))
-        d.addErrback(err, 'connection failed')
+        self.connect()
         self.screen = ControlScreen(self)
         return self.screen
         
-    def connect(self, factory, dest, port):
+    def connect(self):
+        factory, dest, port = KivyControllerFactory(self), self.config.get("Connection", "server"), int(self.config.get("Connection", "port"))
         self.endpoint = TCP4ClientEndpoint(reactor, dest, port)
         # self.service = ClientService(endpoint, factory, retryPolicy=backoffPolicy(0.5, 15.0))
         # self.service.startService()
         # d = self.service.whenConnected()
         d = self.endpoint.connect(factory)
+        d.addErrback(err, 'connection failed')
         return d
     
     def disconnect(self):
-         #self.service.stopService()
-        pass
+        print("Disconnecting intentionally")
+        return self.screen.protocol.disconnect()
     
     def connected(self, server):
         print("Connection Established %s" %server)
         self.screen.protocol = server
-        self.keepalive = Clock.schedule_interval(lambda dt: server.callRemote(KeepalivePing), 1) # once per second
+        self.keepalive = Clock.schedule_interval(lambda dt: server.callRemote(KeepalivePing), int(self.config.get("Connection", "keepalive"))) # once per second
         
     def disconnected(self):
         print("Connection lost, reestablishing...")
@@ -104,9 +106,10 @@ class ControlApp(App):
         self.screen.protocol = None
 
     def build_config(self, config):
-        config.setdefaults('RemoteConnection', {
+        config.setdefaults('Connection', {
             'server': '192.168.43.160',
-            'port': 8750
+            'port': 8750,
+            'keepalive': 3
         })
 
     def build_settings(self, settings):
@@ -117,21 +120,21 @@ class ControlApp(App):
         { "type": "string",
           "title": "Server",
           "desc": "Select IP or hostname of turret",
-          "section": "RemoteConnection",
+          "section": "Connection",
           "key": "server"},
 
         { "type": "numeric",
           "title": "Port",
           "desc": "server port",
-          "section": "RemoteConnection",
+          "section": "Connection",
           "key": "port" }
         ]""")
 
     def on_config_change(self, config, section, key, value):
         if config is self.config:
-            self.disconnect()
-            d = self.connect(KivyControllerFactory(self), self.config.get("RemoteConnection", "server"), int(self.config.get("RemoteConnection", "port")))
-            d.addErrback(err, 'connection failed')
+            disconnected = self.disconnect()
+            disconnected.addCallback(self.connect)
+            
 
 def main():
     startLogging(stdout)
